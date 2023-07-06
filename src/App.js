@@ -7,7 +7,7 @@ const chanceLightStartsOn = () => (Math.random() >= 0.1 ? true : false);
 function App() {
   return (
     <div className="App">
-      <Board nrows={5} ncols={5}chanceLightStartsOn={chanceLightStartsOn} />
+      <Board nrows={3} ncols={3}chanceLightStartsOn={chanceLightStartsOn} />
     </div>
   );
 }

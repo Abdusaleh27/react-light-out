@@ -75,6 +75,7 @@ function Board({ nrows = 3, ncols = 3, chanceLightStartsOn }) {
       for (let cell of oldBoard) {
         copy.push([...cell]);
       }
+
       // TODO: in the copy, flip this cell and the cells around it
       flipCell(y, x, copy);
       //flip right and left
